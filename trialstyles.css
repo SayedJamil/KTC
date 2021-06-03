@@ -160,7 +160,12 @@ input[type=text]:focus {
         margin: 5px 2px 3px 2px
     }
 
-
-
+    .navbar-nav{
+        margin:1%;
+    }
+    .nav-item
+    {
+        text-align: center;
+    }
 }
 

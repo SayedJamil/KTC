@@ -3,13 +3,12 @@
     padding: 0;
     
 }
-body{
+body,html{
     height: 100%;
     width: 100%;
 }
 .bgimage{
     background-image: url('images/mainpage.jpg');
-    filter: blur(5px);
     /* Full height */
     height: 100vh;
     width: 100%;
@@ -19,12 +18,12 @@ body{
     background-size: cover;
     padding: 0%;
     border: 0;
-    transform: scale(1.2);
     position: relative;
+
 }
 
 .container1{
-
+    position: absolute;
     overflow: hidden;
     list-style-type: none;
     height:100px;
@@ -34,22 +33,22 @@ body{
     padding: 0px;
     margin: 0px;
     border: 0px;
-    top:-100px;
+    top:0px;
     left: 0px;
 }
 
 
 .logofill1{
     position: inherit;
-    top:15px;
-    left: 100px ;
+    top:50%px;
+    left: 10% ;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 0%;
     margin: 0%;
     color: rgb(255, 255, 255);
     float: left;
-    font-size: 3em ;
+    font-size: 4em ;
 
 }
 .red{
@@ -57,6 +56,20 @@ body{
     float: right;
 }
 
+.fillc1{
+    position: absolute;
+    height: 8%;
+    width: 46%;
+    background-color: rgb(31, 31, 31);
+    margin-left: 27%;
+    margin-top: 500px;
+    padding: 0px;
+    opacity: 80%;
+    border:5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(97, 97, 97);
+}
 .name{
 
     position: absolute;
@@ -81,34 +94,28 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     position: absolute;
-    font-size: 30px;
+    font-size: 35px;
     text-align: left;
-    top: 10px;
-    bottom: 25px;
-    left: 25px;
+    top: 7%;
+    left:70px;
+    color: rgb(255, 255, 255);
 }
 
 input[type=text] {
-    width: 400px;
+    width: 600px;
     height: 50px;
-    position: absolute;
-    background-color: rgb(165, 165, 165);
-    padding: 0px;
-    margin: 0px;
-    border-radius: 4px;
-  }
-
-  input[type=text]:focus {
-    border: 3px solid rgb(0, 0, 0);
-  }
-  
-.inputfield{
-    top:10px;
-    bottom: 50px;
-    right: 0px;
-    left:-100px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    border:0px;
+    top:7px;
+    right: 3px;
     position: absolute;
     transform: scale(0.8);
     padding: 0px;
-    margin: 0px;
-}
+
+  }
+
+  input[type=text]:focus {
+    border: 5px solid rgb(0, 0, 0);
+  }
+  
